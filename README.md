@@ -1,5 +1,43 @@
 # Hosting a Full-Stack Application
 
+# Udagram application:
+
+## Description:
+
+    A simple photo sharing application.
+
+### Step by step:
+
+- Create AWS RDS database with public access
+
+  - Get database endpoint, master username and master password
+  - Allow access to database by editing security group's inbound rule.
+  - add database endpoint to udagram api .env POSTGRES_HOST variable
+  - add username, password and database name to relevant .env variables
+  - test database connection through terminal by command:
+    `psql -h database-1.c9yipu3gzpbi.us-east-1.rds.amazonaws.com -U postgres postgres` and then typing master password when prompted
+
+- Manually deploy API:
+  - Prepare folder by creating Archive.zip folder from www folder contents
+  - Create elastic beanstalk environment and upload Archive.zip folder
+  - Add environment varibles to the environment:
+  ```javascript
+   JWT_SECRET=abotreka
+   POSTGRES_DB=postgres
+   POSTGRES_HOST=database-1.c9yipu3gzpbi.us-east-1.rds.amazonaws.com
+   POSTGRES_PASSWORD=postgres
+   POSTGRES_USERNAME=postgres
+  ```
+- Hosting frontend:
+  - Create S3 bucket:
+    - ACLs enabled
+    - public access
+  - Upload the udagram-frontend/www folder contents
+  - Configure static hosting
+  - Update Bucket and CORS policies
+  - Update environment.ts and environment.prod.ts to add api url
+  - Update deploy.sh file to add S3 for cli deployment
+
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
 ---
@@ -16,11 +54,10 @@ The project will also include writing documentation and runbooks covering the op
 
 This application is provided to you as an alternative starter project if you do not wish to host your own code done in the previous courses of this nanodegree. The udagram application is a fairly simple application that includes all the major components of a Full-Stack web application.
 
-
-
 ### Dependencies
 
 ```
+
 - Node v14.15.1 (LTS) or more recent. While older versions can work it is advisable to keep node to latest LTS version
 
 - npm 6.14.8 (LTS) or more recent, Yarn can work but was not tested for this project
@@ -70,3 +107,7 @@ The e2e tests are using Protractor and Jasmine.
 ## License
 
 [License](LICENSE.txt)
+
+```
+
+```
