@@ -6,6 +6,8 @@
 
     A simple photo sharing application.
 
+[![<AhmedSaadKader>](https://circleci.com/gh/AhmedSaadKader/udacity-deployment-final.svg?style=svg)](https://app.circleci.com/pipelines/github/AhmedSaadKader/udacity-deployment-final)
+
 ### Step by step:
 
 - Create AWS RDS database with public access
