@@ -38,6 +38,11 @@
   - Update environment.ts and environment.prod.ts to add api url
   - Update deploy.sh file to add S3 for cli deployment
 
+-CI/CD:
+
+- configure circleCi account with github project
+- configure cicleci/config.yml file and main package.json file
+
 ### **You can use you own project completed in previous courses or use the provided Udagram app for completing this final project.**
 
 ---
