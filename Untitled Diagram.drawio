@@ -1,4 +1,4 @@
-<mxfile modified="2023-02-21T16:42:48.661Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GHNkwF_h5oqCKAv2eOxo" version="20.8.21" type="github">
+<mxfile modified="2023-02-21T16:45:12.729Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="UAAfhXbU4KMXqqA4kac0" version="20.8.21" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
     <mxGraphModel dx="1035" dy="1359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
         <mxCell id="UEzPUAAOIrF-is8g5C7q-179" value="Angular hosted&lt;br style=&quot;font-size: 18px;&quot;&gt;on S3" style="outlineConnect=0;fontColor=default;gradientColor=#F54749;gradientDirection=north;fillColor=#DF8C42;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=18;fontStyle=0;aspect=fixed;shape=mxgraph.veeam2.aws_s3;resIcon=mxgraph.aws4.organizations;labelBackgroundColor=#ffffff;sketch=0;shadow=0;" parent="UEzPUAAOIrF-is8g5C7q-175" vertex="1">
           <mxGeometry x="549" y="267" width="137" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="NMRSi0StNrNSCQlEDRtV-16" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cognito;fillColor=#AD688B;gradientColor=none;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-175">
+        <mxCell id="NMRSi0StNrNSCQlEDRtV-16" value="Amazon Cognito" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cognito;fillColor=#AD688B;gradientColor=none;fontSize=18;" vertex="1" parent="UEzPUAAOIrF-is8g5C7q-175">
           <mxGeometry x="260" y="30" width="143.25" height="140" as="geometry" />
         </mxCell>
         <mxCell id="UEzPUAAOIrF-is8g5C7q-180" value="End user" style="outlineConnect=0;fontColor=default;gradientColor=#F34482;gradientDirection=north;fillColor=#00188D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=18;fontStyle=0;aspect=fixed;shape=mxgraph.azure.computer;resIcon=mxgraph.aws4.cloudwatch;labelBackgroundColor=#ffffff;sketch=0;shadow=0;" parent="1" vertex="1">
