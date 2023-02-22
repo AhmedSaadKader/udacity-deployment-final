@@ -1,3 +1,6 @@
+[!Alt text](./udagram-aws-architecture-diagram.drawio.svg)
+<img src="./udagram-aws-architecture-diagram.drawio.svg">
+
 # Postgres Database
 
     - hosted on AWS RDS
